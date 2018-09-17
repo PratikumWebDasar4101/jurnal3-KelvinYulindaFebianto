@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>  
+<head>
+	<title>Uplode Gambar</title>
+</head>
+<body>
+	<form action="proses.php" method="post" enctype="multipart/form-data"> <!-- action=”proses.php” itu berarti pemrosesan file-nya akan ditujukan pada file proses.php. // enctype=”multipart/form-data” adalah sebagai pernyataan bahwa data tersebut berupa file (bisa file audio, video, teks, gambar, dll).  -->
+		<table>
+			<tr>
+				<input name="filegambar" type="file"/><br><br> <!--name=”filegambar” digunakan untuk identitas,type="file" adalah jenis file yang akan di uplode, file field yang nantinya digunakan untuk memilih data yang akan diupload. File field secara sederhana dapat diartikan sebagai kotak untuk memasukan file. -->
+				<input type="submit" name="upload" id="upload" value="Upload"/>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
